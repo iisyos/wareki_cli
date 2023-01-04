@@ -9,8 +9,8 @@ var today = function () {
 (function () {
     var _a;
     var args = process.argv.slice(2);
-    var timeFormat = { era: "long" };
+    var timeFormat = { era: 'long' };
     var input = (_a = args[0]) !== null && _a !== void 0 ? _a : today();
     var date = new Date(input);
-    console.log(new Intl.DateTimeFormat("ja-JP-u-ca-japanese", timeFormat).format(date));
+    console.log(new Intl.DateTimeFormat('ja-JP-u-ca-japanese', timeFormat).format(date));
 })();
