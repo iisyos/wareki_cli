@@ -1,6 +1,6 @@
 {
   "version": "0.1",
   "language": "en",
-  "words": ["sereki"],
-  "ignorePaths": ["playwright.config.ts"]
+  "words": ["heisei", "sereki"],
+  "ignorePaths": ["playwright.config.ts", "/dist"]
 }

@@ -1,4 +1,4 @@
-const today = (): string => {
+export const today = (): string => {
   const today = new Date();
 
   const year = today.getFullYear();
