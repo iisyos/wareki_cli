@@ -2,19 +2,25 @@
   "name": "sereki",
   "version": "1.0.6",
   "description": "",
-  "bin": {
-    "sereki": "./dist/js/index.js"
+  "homepage": "https://github.com/iisyos/sereki#readme",
+  "bugs": {
+    "url": "https://github.com/iisyos/sereki/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iisyos/sereki.git"
   },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iisyos/sereki/issues"
+  "author": "",
+  "bin": {
+    "sereki": "./dist/js/index.js"
   },
-  "homepage": "https://github.com/iisyos/sereki#readme",
+  "scripts": {
+    "cspell": "cspell **/*.{js,ts,md}",
+    "lint": "eslint --ext .js,.ts --fix --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .js,.ts --ignore-path .gitignore .",
+    "prepare": "husky install"
+  },
   "dependencies": {
     "sereki": "^1.0.3",
     "tsc": "^2.0.4",
@@ -24,6 +30,7 @@
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
+    "cspell": "^6.18.1",
     "del": "^7.0.0",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
@@ -31,11 +38,7 @@
     "gulp-typescript": "^6.0.0-alpha.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.8.1"
-  },
-  "scripts": {
-    "prepare": "husky install",
-    "lint": "eslint --ext .js,.ts --fix --ignore-path .gitignore .",
-    "lint:fix": "eslint --ext .js,.ts --ignore-path .gitignore ."
+    "prettier": "^2.8.1",
+    "sort-package-json": "^2.1.0"
   }
 }
