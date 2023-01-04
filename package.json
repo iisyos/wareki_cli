@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/iisyos/sereki#readme",
   "dependencies": {
+    "sereki": "^1.0.3",
     "tsc": "^2.0.4",
     "typescript": "^4.9.4"
   },
