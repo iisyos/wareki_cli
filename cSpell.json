@@ -1,6 +1,6 @@
 {
   "version": "0.1",
   "language": "en",
-  "words": ["heisei", "sereki"],
+  "words": ["heisei", "wareki_cli"],
   "ignorePaths": ["playwright.config.ts", "/dist"]
 }
